@@ -56,10 +56,13 @@ If everything is fine you see this lines
 ## Some info for server owners ##
 
 This source is intended for personal use but feel free to opening server with this gm.
-<span style="color:green;font-weight:700;font-size:20px">
-  ### ** !!!IMPORTANT ** ###
-** The credits on log in and registration dialog MUST leaved as they are!!** </span>
+
+### ** !!!IMPORTANT ** ###
+** The credits on log in and registration dialog MUST leaved as they are!! ** 
 You can add yourself or the list of your team if you wish
 
+If you need some support or have any questions about the source code 
+feel free to ask me in discord: ``` zackster#8437 ```
+or you can join old discord of last attempt of starting project: https://discord.gg/gF3vZwpWn9
 
 
