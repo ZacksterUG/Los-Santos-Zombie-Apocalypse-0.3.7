@@ -48,7 +48,7 @@ Their assassination award a lot of XP, items, materials. Everyone who participat
 If everything is fine you see this lines
 ![image](https://user-images.githubusercontent.com/48206034/221177800-87fdf1c1-76c7-4164-b8fb-b774ace37f1b.png)
 
-3) Open samp and add 127.0.0.1:7777 into your favourite list
+3) Open samp and add { 127.0.0.1:7777 } into your favourite list
 ![image](https://user-images.githubusercontent.com/48206034/221177999-ec388a65-ca59-46fe-bd23-d3c922880388.png)
 
 4) Connect to the server and enjoy!
@@ -58,7 +58,7 @@ If everything is fine you see this lines
 This source is intended for personal use but feel free to opening server with this gm.
 
 ### ** !!!IMPORTANT ** ###
-
+** The credits on log in and registration dialog MUST leaved as they are!!** 
 
 
 
