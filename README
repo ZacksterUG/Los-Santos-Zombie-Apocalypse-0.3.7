@@ -1,98 +1,44 @@
-SA-MP 0.3 Server Setup
-----------------------
+#Los Santos Zombie Apocalypse#
 
-Once the configuration is complete, run> ./samp03svr & to start the server process.
+##About gamemode##
+The zombie server that was originally created by cyber_punk
 
-CONFIGURATION:
+The main idea of gamemode is the confrontation of two teams - Zombies and Humans
+Zombies' goal is to infect all of humans on the map
+Humans' goal is to survive and clear 8 checkpoints
 
-Example server.cfg:
-	echo Executing Server Config...
-	lanmode 0
-	maxplayers 32
-	port 7777
-	hostname Unnamed Server
-	announce 0
-	gamemode0 lvdm 1
-	gamemode1 rivershell 1
-	weburl www.sa-mp.com
-	rcon_password changeme
+Both teams have their own special features. Both teams have perks that are unlocked on each rank.
+Perks let players gain a little advantage before opponent. 
+Humans have inventory. On spawn they get standart kit of items:
+- 3 large med kits
+- 4 medium med kits
+- 5 small med kits
+- 3 flashbangs
+- 3 can of fuel and oil for filling up vehicle
 
-To configure the server, you must edit the values in server.cfg. They 
-are explained below:
+There are 2 types of items in the game - permament and temporary
+Permament items are items that can be crafted except weapons, they are given for 1 round.
+Temporary items are availaible for use during round if they are not used they dissapear in the next round.
 
-hostname
---------
-	Parameters:
-		string
-	
-	Description:
-		Specifies the hostname shown in the server browser
-		
-port
-----
-	Parameters:
-		int
-	
-	Description:
-		Specifies the port to listen on.
-		This port is used for game connections, rcon 
-connections, and for querying.
-	
-maxplayers
-----------
-	Parameters:
-		int
-	
-	Description:
-		Specifies the maximum amount of players.
-		
-lanmode
--------
-	Parameters:
-		int (0 or 1)
-		
-	Description:
-		Turns lanmode on (1) or off (0). Lanmode (as the name 
-suggests) is for use on LAN games, where bandwidth is not a problem. 
-Lanmode sends data at a higher rate, for a smoother game.
-		
+Also both teams gain special points: DNA points for zombies and materials for humans
+Materials are used in crafting for humans. You can craft items in special places with crafting table (marked with a blue skull on map)
+or can be crafted on the item crafting table in inventory (you can craft it in special place also) 
 
-announce
--------
-	Parameters:
-		int (0 or 1)
-		
-	Description:
-		Announces your server to the 'Internet' server list in 
-the SA:MP browser. On (1) or Off (0).
+Players can gain xp by killing zombie NPC, players from opponent team or completing achievements.
+When players gain enough XP they get a higher rank. Every 5 ranks humans gain new powerful weapons.
+On each rank their ammo increases. Zombies increases their max available health every 5 rank too. Max health is obtained on 30 rank
+and amount of health is 250.
 
-weburl
-------
-	Parameters:
-		string
-	
-	Description:
-		Specifies the URL shown in the server browser, which is 
-associated to the server.
-		
-rcon_password
--------------
-	Parameters:
-		string
-		
-	Description:
-		Specifies the password needed to connect to rcon, or 
-login to rcon ingame.
-		
-gamemode0 - gamemode15
-----------------------
-	Parameters:
-		string
-		int
-		
-	Description:
-		Specifies the rotation settings. The first parameter 
-sets the game mode name. The second is the number of times it will 
-repeat.
-		You can use gamemode0 to specify the first gamemode, 
-gamemode1 to specify the second, etc.
+During the players can participate in some events. Humans can loot in special place in order to gain special bullets or materails.
+Also they can loot for regular items in interiors.
+
+After the 5th checkpoint there is a chance of appearing of looting box. The aim of zombies is destroying it, humans - capture it.
+Zombies just receive XP. Humans get some regular items that help them to survive.
+
+Also there is one of the most fascinating events. It is appearance of the Alpha Zombies. These zombies are very powerful and dangerous.
+They damage like regular players and can change their perks and behaviour that depends on various circumstances. 
+Their assassination award a lot of XP, items, materials. Everyone who participated receives alpha essence.
+
+##Installation
+
+
