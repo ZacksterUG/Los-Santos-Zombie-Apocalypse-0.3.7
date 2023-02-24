@@ -56,9 +56,9 @@ If everything is fine you see this lines
 ## Some info for server owners ##
 
 This source is intended for personal use but feel free to opening server with this gm.
-
-![#f03c15] ### ** !!!IMPORTANT ** ###
-![#f03c15] ** The credits on log in and registration dialog MUST leaved as they are!!** 
+<span style="color:green;font-weight:700;font-size:20px">
+  ### ** !!!IMPORTANT ** ###
+** The credits on log in and registration dialog MUST leaved as they are!!** </span>
 You can add yourself or the list of your team if you wish
 
 
