@@ -1,6 +1,6 @@
 # Los Santos Zombie Apocalypse #
 
-##About gamemode##
+## About gamemode ##
 The zombie server that was originally created by cyber_punk
 
 The main idea of gamemode is the confrontation of two teams - Zombies and Humans
@@ -13,7 +13,7 @@ Humans have inventory. On spawn they get standart kit of items:
 - 3 large med kits
 - 4 medium med kits
 - 5 small med kits
-- 3 flashbangs
+- 3 flashlights
 - 3 can of fuel and oil for filling up vehicle
 
 There are 2 types of items in the game - permament and temporary
@@ -39,6 +39,6 @@ Also there is one of the most fascinating events. It is appearance of the Alpha 
 They damage like regular players and can change their perks and behaviour that depends on various circumstances. 
 Their assassination award a lot of XP, items, materials. Everyone who participated receives alpha essence.
 
-##Installation
+## Installation ##
 
 
