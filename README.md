@@ -41,4 +41,19 @@ Their assassination award a lot of XP, items, materials. Everyone who participat
 
 ## Installation ##
 
+1)
+![image](https://user-images.githubusercontent.com/48206034/221177553-66ed6b01-39f2-4304-8916-4875a1063abe.png)
+
+2) Start server by opening samp-server.exe
+If everything is fine you see this lines
+![image](https://user-images.githubusercontent.com/48206034/221177800-87fdf1c1-76c7-4164-b8fb-b774ace37f1b.png)
+
+3) Open samp and add 127.0.0.1:7777 into your favourite list
+![image](https://user-images.githubusercontent.com/48206034/221177999-ec388a65-ca59-46fe-bd23-d3c922880388.png)
+
+4) Connect to the server and enjoy!
+
+
+
+
 
