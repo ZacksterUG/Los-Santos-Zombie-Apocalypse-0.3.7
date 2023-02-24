@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScintillaNET>
+	<Language Name="cpp">
+		<AutoComplete FillUpCharacters=".([" SingleLineAccept="True" IsCaseSensitive="False">
+			<List>
+				new?1 Float?1 Bool?1
+			</List>
+		</AutoComplete>
+
+		<Indentation TabWidth="4" SmartIndentType="cpp" />
+			
+		
+		<Lexer LexerName="cpp" LineCommentPrefix="//" StreamCommentPrefix="/* " StreamCommentSuffix=" /*" >	
+			<Keywords List="0" Inherit="False">
+				abstract as base break case catch checked continue default delegate do else event explicit extern
+				false finally fixed for foreach goto if implicit in interface internal is lock namespace new null
+				object operator out override params private protected public readonly ref return sealed sizeof
+				stackalloc switch this throw true try typeof unchecked unsafe using virtual while
+			</Keywords>
+		</Lexer>
+	</Language>
+</ScintillaNET> 

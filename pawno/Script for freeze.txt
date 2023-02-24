@@ -1,0 +1,16 @@
+forward UnFreezePlayer(playerid);
+
+
+public OnPlayerSpawn(playerid)
+{
+	if(Team[playerid] == ZOMBIE)
+	{
+		SetTimerEx("UnFreezePlayer", 3000, false, "i", playerid);
+	}
+
+
+public UnFreezePlayer(playerid)
+{
+    TogglePlayerControllable(playerid, true);
+    return true;
+}

@@ -1,0 +1,112 @@
+switch(PInfo[playerid][Rank])
+		{
+		    case 1: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,23,60),GivePlayerWeapon(playerid,15,1);
+		    case 2: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,23,110),GivePlayerWeapon(playerid,15,1);
+		    case 3: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,23,160),GivePlayerWeapon(playerid,7,1);
+		    case 4: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,23,190),GivePlayerWeapon(playerid,7,1);
+		    case 5: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,22,100),GivePlayerWeapon(playerid,7,1);
+		    case 6: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,22,150),GivePlayerWeapon(playerid,7,1);
+		    case 7: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,22,200),GivePlayerWeapon(playerid,7,1);
+		    case 8: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,22,250),GivePlayerWeapon(playerid,7,1);
+		    case 9: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,22,300),GivePlayerWeapon(playerid,6,1);
+		    case 10: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,22,300),GivePlayerWeapon(playerid,6,1),GivePlayerWeapon(playerid,25,50);
+		    case 11: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,22,400),GivePlayerWeapon(playerid,6,1),GivePlayerWeapon(playerid,25,150);
+		    case 12: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,22,500),GivePlayerWeapon(playerid,6,1),GivePlayerWeapon(playerid,25,250);
+		    case 13: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,22,600),GivePlayerWeapon(playerid,6,1),GivePlayerWeapon(playerid,25,350);
+		    case 14: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,22,700),GivePlayerWeapon(playerid,5,1),GivePlayerWeapon(playerid,25,350);
+		    case 15: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,100),GivePlayerWeapon(playerid,5,1),GivePlayerWeapon(playerid,25,350);
+		    case 16: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,200),GivePlayerWeapon(playerid,5,1),GivePlayerWeapon(playerid,25,400);
+		    case 17: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,300),GivePlayerWeapon(playerid,5,1),GivePlayerWeapon(playerid,25,450);
+		    case 18: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,400),GivePlayerWeapon(playerid,5,1),GivePlayerWeapon(playerid,25,500);
+		    case 19: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,500),GivePlayerWeapon(playerid,3,1),GivePlayerWeapon(playerid,25,500);
+		    case 20: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,650),GivePlayerWeapon(playerid,3,1),GivePlayerWeapon(playerid,25,550),GivePlayerWeapon(playerid,28,120),GivePlayerWeapon(playerid,33,50);
+		    case 21: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,800),GivePlayerWeapon(playerid,3,1),GivePlayerWeapon(playerid,25,600),GivePlayerWeapon(playerid,28,200),GivePlayerWeapon(playerid,33,100);
+		    case 22: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,1050),GivePlayerWeapon(playerid,3,1),GivePlayerWeapon(playerid,25,650),GivePlayerWeapon(playerid,28,250),GivePlayerWeapon(playerid,33,150);
+		    case 23: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,1200),GivePlayerWeapon(playerid,3,1),GivePlayerWeapon(playerid,25,700),GivePlayerWeapon(playerid,28,300),GivePlayerWeapon(playerid,33,200);
+		    case 24: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,1350),GivePlayerWeapon(playerid,4,1),GivePlayerWeapon(playerid,25,750),GivePlayerWeapon(playerid,28,350),GivePlayerWeapon(playerid,33,250);
+		    case 25: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,1600),GivePlayerWeapon(playerid,4,1),GivePlayerWeapon(playerid,26,150),GivePlayerWeapon(playerid,28,400),GivePlayerWeapon(playerid,33,300);
+		    case 26: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,1800),GivePlayerWeapon(playerid,4,1),GivePlayerWeapon(playerid,26,200),GivePlayerWeapon(playerid,28,450),GivePlayerWeapon(playerid,33,350);
+		    case 27: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,2000),GivePlayerWeapon(playerid,4,1),GivePlayerWeapon(playerid,26,250),GivePlayerWeapon(playerid,28,500),GivePlayerWeapon(playerid,33,400);
+		    case 28: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,2200),GivePlayerWeapon(playerid,4,1),GivePlayerWeapon(playerid,26,300),GivePlayerWeapon(playerid,28,550),GivePlayerWeapon(playerid,33,450);
+		    case 29: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,2400),GivePlayerWeapon(playerid,8,1),GivePlayerWeapon(playerid,26,400),GivePlayerWeapon(playerid,28,600),GivePlayerWeapon(playerid,33,500);
+		    case 30: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,2700),GivePlayerWeapon(playerid,8,1),GivePlayerWeapon(playerid,26,150),GivePlayerWeapon(playerid,32,100),GivePlayerWeapon(playerid,30,120),GivePlayerWeapon(playerid,33,550);
+			case 31: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,3000),GivePlayerWeapon(playerid,8,1),GivePlayerWeapon(playerid,26,200),GivePlayerWeapon(playerid,32,200),GivePlayerWeapon(playerid,30,180),GivePlayerWeapon(playerid,33,600);
+			case 32: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,3300),GivePlayerWeapon(playerid,8,1),GivePlayerWeapon(playerid,26,250),GivePlayerWeapon(playerid,32,300),GivePlayerWeapon(playerid,30,240),GivePlayerWeapon(playerid,33,650);
+            case 33: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,3600),GivePlayerWeapon(playerid,8,1),GivePlayerWeapon(playerid,26,300),GivePlayerWeapon(playerid,32,400),GivePlayerWeapon(playerid,30,300),GivePlayerWeapon(playerid,33,700);
+            case 34: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,3900),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,26,400),GivePlayerWeapon(playerid,32,500),GivePlayerWeapon(playerid,30,360),GivePlayerWeapon(playerid,33,750);
+            case 35: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,4500),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,27,50),GivePlayerWeapon(playerid,32,600),GivePlayerWeapon(playerid,30,420),GivePlayerWeapon(playerid,33,800);
+			case 36: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,5000),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,27,100),GivePlayerWeapon(playerid,32,800),GivePlayerWeapon(playerid,30,500),GivePlayerWeapon(playerid,33,950);
+			case 37: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,5500),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,27,150),GivePlayerWeapon(playerid,32,1000),GivePlayerWeapon(playerid,30,600),GivePlayerWeapon(playerid,33,1000);
+			case 38: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,6000),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,27,200),GivePlayerWeapon(playerid,32,1200),GivePlayerWeapon(playerid,30,750),GivePlayerWeapon(playerid,33,1050);
+			case 39: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,6500),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,27,250),GivePlayerWeapon(playerid,32,1400),GivePlayerWeapon(playerid,30,900),GivePlayerWeapon(playerid,33,1100);
+			case 40: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,6500),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,27,250),GivePlayerWeapon(playerid,32,1800),GivePlayerWeapon(playerid,31,200),GivePlayerWeapon(playerid,33,1150);
+			case 41: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,7000),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,27,300),GivePlayerWeapon(playerid,32,2200),GivePlayerWeapon(playerid,31,350),GivePlayerWeapon(playerid,33,1200);
+			case 42: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,8000),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,27,400),GivePlayerWeapon(playerid,32,2600),GivePlayerWeapon(playerid,31,500),GivePlayerWeapon(playerid,33,1250);
+			case 43: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,9000),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,27,500),GivePlayerWeapon(playerid,32,3000),GivePlayerWeapon(playerid,31,650),GivePlayerWeapon(playerid,33,1300);
+			case 44: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,10000),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,27,600),GivePlayerWeapon(playerid,32,3500),GivePlayerWeapon(playerid,31,800),GivePlayerWeapon(playerid,33,1350);
+			case 45: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,11000),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,27,700),GivePlayerWeapon(playerid,29,210),GivePlayerWeapon(playerid,31,1000),GivePlayerWeapon(playerid,34,100),GivePlayerWeapon(playerid,39,5),GivePlayerWeapon(playerid,40,1);
+			case 46: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,12000),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,27,1000),GivePlayerWeapon(playerid,29,300),GivePlayerWeapon(playerid,31,1250),GivePlayerWeapon(playerid,34,200),GivePlayerWeapon(playerid,39,10),GivePlayerWeapon(playerid,40,1);
+			case 47: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,13000),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,27,1500),GivePlayerWeapon(playerid,29,390),GivePlayerWeapon(playerid,31,1500),GivePlayerWeapon(playerid,34,300),GivePlayerWeapon(playerid,39,15),GivePlayerWeapon(playerid,40,1);
+			case 48: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,14000),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,27,2500),GivePlayerWeapon(playerid,29,480),GivePlayerWeapon(playerid,31,1750),GivePlayerWeapon(playerid,34,400),GivePlayerWeapon(playerid,39,20),GivePlayerWeapon(playerid,40,1);
+			case 49: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,15000),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,27,3000),GivePlayerWeapon(playerid,29,570),GivePlayerWeapon(playerid,31,2000),GivePlayerWeapon(playerid,34,500),GivePlayerWeapon(playerid,39,25),GivePlayerWeapon(playerid,40,1);
+			case 50: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,16000),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,27,5000),GivePlayerWeapon(playerid,29,660),GivePlayerWeapon(playerid,31,2500),GivePlayerWeapon(playerid,34,600),GivePlayerWeapon(playerid,39,30),GivePlayerWeapon(playerid,40,1);
+			case 51: GivePlayerWeapon(playerid,1,1),GivePlayerWeapon(playerid,24,17000),GivePlayerWeapon(playerid,9,1),GivePlayerWeapon(playerid,27,7500),GivePlayerWeapon(playerid,29,800),GivePlayerWeapon(playerid,31,3000),GivePlayerWeapon(playerid,34,1000),GivePlayerWeapon(playerid,39,40),GivePlayerWeapon(playerid,40,1);
+			
+			
+			
+			
+			
+			
+	{
+	    case 1:PInfo[playerid][XPToRankUp] = 25;
+	    case 2: PInfo[playerid][XPToRankUp] = 50;
+	    case 3: PInfo[playerid][XPToRankUp] = 100;
+	    case 4: PInfo[playerid][XPToRankUp] = 200;
+	    case 5: PInfo[playerid][XPToRankUp] = 400;
+	    case 6: PInfo[playerid][XPToRankUp] = 600;
+	    case 7: PInfo[playerid][XPToRankUp] = 800;
+	    case 8: PInfo[playerid][XPToRankUp] = 1000;
+	    case 9: PInfo[playerid][XPToRankUp] = 1250;
+	    case 10: PInfo[playerid][XPToRankUp] = 1500;
+	    case 11: PInfo[playerid][XPToRankUp] = 1850;
+	    case 12: PInfo[playerid][XPToRankUp] = 2200;
+	    case 13: PInfo[playerid][XPToRankUp] = 2550;
+	    case 14: PInfo[playerid][XPToRankUp] = 2900;
+	    case 15: PInfo[playerid][XPToRankUp] = 3250;
+	    case 16: PInfo[playerid][XPToRankUp] = 3500;
+	    case 17: PInfo[playerid][XPToRankUp] = 4500;
+	    case 18: PInfo[playerid][XPToRankUp] = 5500;
+	    case 19: PInfo[playerid][XPToRankUp] = 6500;
+	    case 20: PInfo[playerid][XPToRankUp] = 8000;
+	    case 21: PInfo[playerid][XPToRankUp] = 10000;
+	    case 22: PInfo[playerid][XPToRankUp] = 12500;
+	    case 23: PInfo[playerid][XPToRankUp] = 15000;
+	    case 24: PInfo[playerid][XPToRankUp] = 17500;
+	    case 25: PInfo[playerid][XPToRankUp] = 20000;
+	    case 26: PInfo[playerid][XPToRankUp] = 24000;
+	    case 27: PInfo[playerid][XPToRankUp] = 26500;
+	    case 28: PInfo[playerid][XPToRankUp] = 30000;
+	    case 29: PInfo[playerid][XPToRankUp] = 32000;
+	    case 30: PInfo[playerid][XPToRankUp] = 34000;
+	    case 31: PInfo[playerid][XPToRankUp] = 37500;
+	    case 32: PInfo[playerid][XPToRankUp] = 41000;
+	    case 33: PInfo[playerid][XPToRankUp] = 44500;
+	    case 34: PInfo[playerid][XPToRankUp] = 48000;
+	    case 35: PInfo[playerid][XPToRankUp] = 50000;
+	    case 36: PInfo[playerid][XPToRankUp] = 55000;
+        case 37: PInfo[playerid][XPToRankUp] = 60000;
+        case 38: PInfo[playerid][XPToRankUp] = 70000;
+        case 39: PInfo[playerid][XPToRankUp] = 75000;
+        case 40: PInfo[playerid][XPToRankUp] = 85000;
+        case 41: PInfo[playerid][XPToRankUp] = 90000;
+        case 42: PInfo[playerid][XPToRankUp] = 95000;
+        case 43: PInfo[playerid][XPToRankUp] = 100000;
+        case 44: PInfo[playerid][XPToRankUp] = 105000;
+        case 45: PInfo[playerid][XPToRankUp] = 110000;
+        case 46: PInfo[playerid][XPToRankUp] = 120000;
+        case 47: PInfo[playerid][XPToRankUp] = 140000;
+        case 48: PInfo[playerid][XPToRankUp] = 160000;
+        case 49: PInfo[playerid][XPToRankUp] = 180000;
+        case 50: PInfo[playerid][XPToRankUp] = 200000;
+		case 51: PInfo[playerid][XPToRankUp] = 225000;
+	}

@@ -1,0 +1,17 @@
+
+stock ShowInfo(playerid, text[])
+{
+TextDrawHideForPlayer(playerid, info);
+new string[155];
+format(string, sizeof(string), "%s", text);
+TextDrawSetString(Text:info, string);
+TextDrawShowForPlayer(playerid, info);
+SetTimerEx("HM", 5000, 0, "i, i", playerid, _:info);
+
+return 1;
+}
+forward HM(playerid, Text:TextIdent);
+public HM(playerid, Text:TextIdent)
+{
+TextDrawHideForPlayer(playerid, TextIdent);
+}
