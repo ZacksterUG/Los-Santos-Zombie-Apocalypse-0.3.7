@@ -57,8 +57,8 @@ If everything is fine you see this lines
 
 This source is intended for personal use but feel free to opening server with this gm.
 
-<font color="red"> ### ** !!!IMPORTANT ** ###
-** The credits on log in and registration dialog MUST leaved as they are!!** </font>
+![#f03c15] ### ** !!!IMPORTANT ** ###
+![#f03c15] ** The credits on log in and registration dialog MUST leaved as they are!!** 
 You can add yourself or the list of your team if you wish
 
 
