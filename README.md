@@ -1,4 +1,4 @@
-#Los Santos Zombie Apocalypse#
+# Los Santos Zombie Apocalypse #
 
 ##About gamemode##
 The zombie server that was originally created by cyber_punk
