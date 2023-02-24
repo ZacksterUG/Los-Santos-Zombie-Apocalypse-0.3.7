@@ -42,7 +42,7 @@ Their assassination award a lot of XP, items, materials. Everyone who participat
 ## Installation ##
 
 1)
-![image](https://user-images.githubusercontent.com/48206034/221177553-66ed6b01-39f2-4304-8916-4875a1063abe.png)
+![image](https://user-images.githubusercontent.com/48206034/221178733-00c433b2-4c42-4612-bca5-c8677aacb8ab.png)
 
 2) Start server by opening samp-server.exe
 If everything is fine you see this lines
@@ -52,6 +52,12 @@ If everything is fine you see this lines
 ![image](https://user-images.githubusercontent.com/48206034/221177999-ec388a65-ca59-46fe-bd23-d3c922880388.png)
 
 4) Connect to the server and enjoy!
+
+## Some info for server owners ##
+
+This source is intended for personal use but feel free to opening server with this gm.
+
+### ** !!!IMPORTANT ** ###
 
 
 
